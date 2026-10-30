@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Fire TV Settings</string>
+    <string name="settings_unavailable">Could not open Fire TV Settings on this device.</string>
+</resources>

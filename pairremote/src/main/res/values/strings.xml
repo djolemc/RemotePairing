@@ -1,0 +1,73 @@
+<resources>
+    <string name="app_name">Pair Remote</string>
+    <string name="tab_pair">Pair remote</string>
+    <string name="tab_volume">Fix volume</string>
+
+    <!-- Pair remote tab -->
+    <string name="scan_again">Scan again</string>
+    <string name="nearby_devices">Nearby devices · select one to pair</string>
+    <string name="nearby_searching">Searching… Put the remote in pairing mode and hold it close.</string>
+    <string name="nearby_none">No devices found. Press \"Scan again\".</string>
+    <string name="paired_devices">Paired devices</string>
+    <string name="none">None</string>
+
+    <string name="no_name">(no name)</string>
+    <string name="signal">%1$d dBm</string>
+    <string name="kind_input">input device</string>
+    <string name="kind_audio_video">audio/video</string>
+    <string name="kind_phone">phone</string>
+    <string name="kind_computer">computer</string>
+    <string name="tag_paired">paired</string>
+
+    <string name="pair_ready">Ready. Press \"Scan again\" and put the remote in pairing mode.</string>
+    <string name="no_adapter">This device has no Bluetooth adapter.</string>
+    <string name="permissions_denied">Permissions denied: %1$s</string>
+    <string name="bluetooth_off">Bluetooth is turned off.</string>
+    <string name="scanning">Scanning for 30 seconds. A recognized remote is paired automatically; otherwise select it on the right. The strongest signal (closest to 0 dBm) is usually the remote.</string>
+    <string name="location_off">Location is off: Fire OS 8 returns no scan results without it.</string>
+    <string name="scan_failed">Could not start scanning.</string>
+    <string name="scan_finished">Scan finished. Select your remote on the right, or scan again.</string>
+    <string name="pairing">Pairing with %1$s…</string>
+    <string name="already_paired">%1$s is already paired.</string>
+    <string name="bond_rejected">The pairing request for %1$s was rejected. Scan again to retry.</string>
+    <string name="paired">Paired: %1$s</string>
+    <string name="pair_failed">Pairing with %1$s failed. Put the remote in pairing mode and scan again.</string>
+
+    <!-- Fix volume tab -->
+    <string name="service_label">Pair Remote: volume buttons to TV</string>
+    <string name="service_description">Keeps Pair Remote running in the background. Volume key presses are read from the Fire OS system log and sent to the TV over the network, because Fire OS ignores them on HDMI. No screen content is read and no keys are filtered.</string>
+
+    <string name="tv_address">TV address (IP, or IP:port)</string>
+    <string name="address_hint">192.168.1.28</string>
+    <string name="save_and_test">Save &amp; test</string>
+    <string name="find_tv">Find TV</string>
+    <string name="tv_list_heading">TVs on this network</string>
+    <string name="tv_list_hint">Press \"Find TV\" to search the network.</string>
+    <string name="unknown_device">Unknown device</string>
+    <string name="tag_selected">selected</string>
+    <string name="service_heading">Volume buttons</string>
+    <string name="service_on">Working. Volume buttons on Bluetooth remotes change the TV volume.</string>
+    <string name="service_no_permission">Almost done: log access (step 6 on the right) is missing.</string>
+    <string name="service_starting">Starting…</string>
+    <string name="service_off">Not set up yet. Follow the steps on the right.</string>
+    <string name="setup_heading">Setup (once)</string>
+    <string name="step_group_tv">ON THE TV</string>
+    <string name="step_tv_debugging">Settings → System → About → click \"Android TV OS build\" 7 times. Then Developer options → USB debugging: on.</string>
+    <string name="step_tv_allow">Select the TV on the left, press \"Save &amp; test\", and on the TV choose Always allow → Allow.</string>
+    <string name="step_group_fire_tv">ON THIS FIRE TV, FROM A COMPUTER</string>
+    <string name="step_fire_tv_adb">Settings → My Fire TV → Developer options → ADB debugging: on.</string>
+    <string name="step_connect">On the computer, open Command Prompt in the folder with adb.exe and connect. If this screen asks to allow USB debugging, choose Always allow → OK.</string>
+    <string name="step_service">Turn on the background service. The command keeps the services that are already on:</string>
+    <string name="step_logs">Let it see key presses:</string>
+    <string name="step_note">Type the commands exactly as shown. After the last one the app restarts once by itself. In Git Bash, write the adb path with forward slashes (/c/adb/adb).</string>
+    <string name="step_fire_tv_ip_unknown">FIRE_TV_IP</string>
+
+    <string name="no_address">No TV selected yet. Searching the network…</string>
+    <string name="invalid_address">Enter an IP address such as 192.168.1.28, or 192.168.1.28:5555.</string>
+    <string name="connecting">Connecting to %1$s…\nIf the TV asks \"Allow debugging?\", choose Always allow → Allow.</string>
+    <string name="connected">Connected to %1$s (%2$s).</string>
+    <string name="connect_failed">Could not connect to %1$s: %2$s\nCheck that the TV is on and USB debugging is enabled, then press \"Save &amp; test\" again.</string>
+    <string name="searching">Searching the network…</string>
+    <string name="nothing_found">No device with ADB debugging found. Turn on USB debugging on the TV, or type its IP address.</string>
+    <string name="found_count">Found %1$d. Select the TV.</string>
+</resources>

@@ -1,0 +1,11 @@
+[versions]
+agp = "9.3.3"
+activity = "1.13.0"
+dadb = "1.2.10"
+
+[libraries]
+androidx-activity-ktx = { group = "androidx.activity", name = "activity-ktx", version.ref = "activity" }
+dadb = { group = "dev.mobile", name = "dadb", version.ref = "dadb" }
+
+[plugins]
+android-application = { id = "com.android.application", version.ref = "agp" }
